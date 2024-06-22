@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: todo
-        image: vvkmulukutla03/custom-flask-application-server:14
-        ports:
-        - containerPort: 6969
+        - name: todo
+          image: vvkmulukutla03/custom-flask-application-server:14
+          ports:
+            - containerPort: 6969
