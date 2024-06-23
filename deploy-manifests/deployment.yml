@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: todo
-          image: vvkmulukutla03/custom-flask-application-server:98
+          image: vvkmulukutla03/custom-flask-application-server:99
           ports:
             - containerPort: 6969
